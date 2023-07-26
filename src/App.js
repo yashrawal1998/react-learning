@@ -1,27 +1,19 @@
-// import Cube from './Cube';
-// import logo from './logo.svg';
+import logo from './logo.svg';
 import './App.css';
-import Counter from './components/counter';
-// import Form from './components/form';
-import HelloWorld from './components/helloWorld';
+import Counter from './components/day01/Counter';
+import Forms from './components/day01/Forms';
+import ToggleBtn from './components/day02/ToggleBtn';
+import HideImage from './components/day02/HideImage';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        {/* Header */}
-      </header>
-      < HelloWorld />
-      {/* <div className='Cube'>
-        <Cube />
-      </div> */}
-      <div>
-        <h1>Component-Counter</h1>
-        <Counter />
-        <hr />
-        {/* <h1>Form Component</h1>
-        <Form /> */}
-      </div>
+      <h1>Hello world</h1>
+     {/* <Counter/>
+     <Forms/> */}
+
+     <ToggleBtn/>
+     <HideImage/>
     </div>
   );
 }
